@@ -1,0 +1,61 @@
+.center-text{
+    text-align: center;
+}
+.center-image{
+    max-width: 100%;
+    height: 100;
+}
+
+
+.h1{
+    text-align: center;
+}
+
+.horizantal-list-cointainer{
+    display: flex;
+    justify-content: center;
+}
+.horizantal-list{
+    list-style-type: none;
+    display: flex; 
+    
+}
+.horizantal-list li{
+    margin-right: 10px;
+    
+}
+.itemhigh{
+    background-color:rgb(48, 49, 51);
+    color: white;
+    
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh; 
+}
+.profile {
+    display: flex;
+    align-items: center;
+    color: black; /* Highlighted text color */
+    padding: 20px;
+    border-radius: 10px;
+}
+.profile img {
+    margin-right: 20px; /* Add space between text and image */
+    border-radius: 50%; /* Make image circular */
+    max-width: 150px; /* Limit image size */
+    height: auto;
+}
+.profile-text {
+    max-width: 400px; /* Limit text container width */
+}
+
+.b-link{
+    color: rgb(115, 18, 26);
+}
+.c-line{
+    text-decoration: none;
+    color: white;
+}
